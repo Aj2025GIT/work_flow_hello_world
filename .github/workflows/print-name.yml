@@ -1,0 +1,14 @@
+name: print-name
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print_name_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my name
+        run: echo "Hello, my name is Aj2025GIT"
+
